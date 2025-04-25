@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> contact </title>
+    <link rel="stylesheet" href="lab04.css">
+</head> 
+
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="home.html" class="active">Home</a>
+    <a href="index5.html">Labs 1-5</a>
+    <a href="Evaluation.html">Lab6</a>
+    <a href="tierlist.html">Lab7</a>
+    <a href="index9.html">Lab9</a>
+    <a href="contact.html">Contact</a>
+    
+    <!--<a href="#about">About</a>-->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <main>
+     <h1> Give Us Feedback</h1>
+     <form action="/my-handling-form-page" method="post">
+        <p>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name" >
+        </p>
+        <p>
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email" >
+        </p>
+        <p> 
+            <label for="birthday">Birthday(must be 18+)</label>
+            <input type="date" id="birthday" name="user_birthday">
+        </p>
+        <p>
+          <label for="feedback">Feedback:</label>
+          <textarea id="feedback" name="user_feedback"></textarea>
+        </p>
+         <p class="button">
+            <button type="submit">Send your message</button>
+          </p>
+
+      </form>
+
+    </main>
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+
+
+<footer> <i> 2025 Ricardo Ventura</i> </footer> 
+</body>
+
