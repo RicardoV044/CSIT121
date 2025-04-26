@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Final project lab 05 Web Standards</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lab04.css">
+    
+</head> 
+
+
+<body> 
+    <header>
+        <h1>Learning Web Standards</h1>
+    </header>
+
+    <div class="topnav" id="myTopnav">
+        <a href="home.html" class="active">Home</a>
+        <a href="index5.html">Labs 1-5</a>
+        <a href="Evaluation.html">Lab6</a>
+        <a href="tierlist.html">Lab7</a>
+        <a href="index9.html">Lab9</a>
+        <a href="contact.html">Contact</a>
+        
+        <!--<a href="#about">About</a>-->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+
+    <nav>
+        <ul>
+            <li><a href="#lab1">Lab 1</a></li>
+            <li><a href="#lab2">Lab 2</a></li>
+            <li><a href="#lab3">Lab 3</a></li>
+            <li><a href="#lab5">Lab 5</a></li>
+        </ul>
+    </nav>    
+
+   <main>
+
+        <article id="lab1">
+            <h2> Lab 1</h2>
+             <p> This is my first webpage. It took a while to get familiar but I think I'm doing ok.
+                What helped me was the the example code which I feel really made things click for me and helped me understand.
+                I learned a lot about how tags work and was introduced to a wide variety of tags. I also got a deeper understandind of HTML, how it work,
+                the proper structure and standards to follow. Some things I might have trouble with are attributes it reminds me of attributes in Java.
+            </p> 
+        </article>
+
+        <article id="lab2">
+            <h3> Lab 2 </h3>
+            <ol>
+                <li id="id"> I learned how to <b> bold</b> words</li>
+                <li> I learned the HTML basics and basic tags </li>
+                <li class="class"> I learned hwo to structure HTML text </li>
+            </ol>
+            <p> some resources that really helped me where: </p>
+            <ul>
+                <li> <p><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content"> This page </a> </p> </li>
+                <li> <p><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content"> And this page </a> </p> </li>
+               
+            </ul> 
+        </article>
+
+        <article id="lab3">
+            <h4> Lab 3</h4>
+             <p> This is My webpage for lab 3. This is my first introudction to CSS and my first time using it. I think I got the basics down
+                but I still struggle in remebeing certain syntax. I hope that practicing more will help me remeber better and allow me to become more
+                proficient. I learned a lot about how to structure CSS and how CSS actually works in sync with HTML. Something that I might have
+                trouble with in the future is adding links even though I know how to I somtimes forget the format. 
+            </p> 
+        </article>
+
+        <article id="lab5">
+            <h5> Lab 5</h5>
+             <p> When designing a webpage, it is important to follow best practices to ensure accessibility, usability, and responsiveness. 
+                A structured layout with clear navigation improves the users experience by making content easy to find and interact with.
+                You can make use of page layout properties like flexbox, grid, and float to adjust the layout of your webpage to make it
+                not only visualy appealing but also user friendly. You can use one or many media query to adjust different properties based on desired 
+                conditions to make your webpage accessible and usuable without compromising the look for all devices. 
+                Reflecting on this lab I can say that it was not to hard but it was complex. 
+            </p> 
+        </article>
+
+    </main> 
+
+        
+    
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>    
+
+<footer> <i> 2025 Ricardo Ventura</i> </footer> 
+</body> 
+
