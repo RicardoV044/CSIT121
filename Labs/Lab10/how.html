@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> How it is used</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lab10.css">
+    
+</head> 
+
+<body id="image">
+
+    <header> 
+    <h1> CSIT 121 lab10 </h1>
+    </header>
+
+    <div class="topnav" id="myTopnav">
+        <a href="home.html" class="active">Home</a>
+        <a href="what.html">What is it?</a>
+        <a href="why.html">Why is it important?</a>
+        <a href="how.html">how it is used?</a>
+       
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+     <main>
+        <h2> Q: How is the Geolocation API used</h2>
+        <article>
+            <h3> A: </h3>
+            <p> The Geoloation API is used to determine the users location and using that information
+                it provide services. To request specific geographical coordinates websites and apps call methods
+                like getCurrentPosition(). The browser then returns information like longitude, latitude, speed and direction.
+                The information that the browser resturns allows for features like maps and locators for a variety of services. <br><br>
+                One of the most common uses for the Geolocation API is ride sharing services like Uber and lyft. These services
+                need real time updates on user and driver location. Withouth geolocation users would not know when their driver 
+                would show up because they would not be able to track them. The driver would also not be able to know if the user 
+                has moved locations or where they even are. <br><br>
+                Some other common uses of the Geolocation API is for emergency services. The Geolocation API could provide
+                emergency services like the police or the ambulance information to locate where you are. It is also commonly used by 
+                businesses to be able to find their target audeinece like people that may live nearby or for more exposure. It is also used by 
+                delievery services whether it be doordash or UPS it can be used to track your package.</p>
+        </article> 
+
+
+     </main>
+
+
+     <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+  
+  <footer> <i> 2025 Ricardo Ventura</i> </footer> 
+</body>
