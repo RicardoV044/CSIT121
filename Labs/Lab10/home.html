@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Lab10 Home page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lab10.css">
+    
+</head> 
+
+<body id="image">
+
+    <header> 
+    <h1> CSIT 121 lab10 </h1>
+    </header>
+
+    <div class="topnav" id="myTopnav">
+        <a href="home.html" class="active">Home</a>
+        <a href="what.html">What is it?</a>
+        <a href="why.html">Why is it important?</a>
+        <a href="how.html">how it is used?</a>
+       
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+     <main>
+        <h2> Web Standards Presentation: Geolocation API </h2>
+        <article>
+            <h3> What are Web Standards </h3>
+            <p> Web standards are rules and guidelines that ensure web sites and other web technology are consistent 
+                and accessible on all devices and browsers. These web standards are made and maintained by organizations like 
+                the World Wide Web Consortium (Elcom, n.d.). 
+            </p>
+        </article> 
+        <article>
+            <h3> Purpose of this webpage </h3>
+            <p> The purpose of this webpage is to inform on the web standard, Geolocation API.
+            </p>
+        </article> 
+        <article>
+            <h3> Sources </h3>
+            <p>What are web standards. (2024, June 6). Elcom. <a href="https://www.elcom.com.au/resources/blog/web-standards"> https://www.elcom.com.au/resources/blog/web-standards </a><br>
+                Geolocation API. (n.d.). MDN Web Docs. <a href="https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API"> https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API </a> <br>
+                Cáceres, M., & Grant, R. (Eds.). (n.d.). Geolocation. W3C. <a href="https://www.w3.org/TR/geolocation/"> https://www.w3.org/TR/geolocation/ </a>
+
+
+
+
+            </p>
+        </article> 
+
+
+     </main>
+
+
+     <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+  
+  <footer> <i> 2025 Ricardo Ventura</i> </footer> 
+</body>
